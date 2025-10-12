@@ -10,7 +10,7 @@ get_settings() {
 
 # Looks for a line ending with device
 if ! adb devices | grep -q "device\$"; then
-    print 'ADB Device not found'
+    print 'No ADB device found'
     exit 1
 fi
 
