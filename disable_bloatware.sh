@@ -20,7 +20,7 @@ com.samsung.android.fast
 com.samsung.android.ipsgeofence
 com.samsung.android.mapsagent
 com.samsung.android.app.omcagent
-com.samsung.android.sm.devicesecurit
+com.samsung.android.sm.devicesecurity
 com.samsung.android.mdx
 com.samsung.android.rubin.app
 com.android.providers.partnerbookmarks
