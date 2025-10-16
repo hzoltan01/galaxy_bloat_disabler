@@ -31,3 +31,8 @@ settings put secure content_capture_enabled 0 && echo 'Android personalization s
 settings put global multi_cb 0 && echo 'Usage and diagnostics disabled'
 # Process data only on device (Galaxy AI) - Enable
 settings put system prevent_online_processing 1 && echo 'Process data only on device enabled (Galaxy AI)'
+
+
+# Encrypted DNS
+settings put global private_dns_mode hostname
+settings put global private_dns_specifier 1dot1dot1dot1.cloudflare-dns.com
